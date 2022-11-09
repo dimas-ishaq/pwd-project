@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background: #ffff;
+    background-blend-mode: screen !important;
+    overflow-x: hidden !important;
+}
+.navbar .nav-link{
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.navbar .active{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+}

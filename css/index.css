@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fff;
+    height: 100%;
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar .nav-link{
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.navbar .active{
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+}
+
+/* Hero */
+.hero .hero-text{
+width: 545px;
+color: #111111;
+text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero .sub-hero-text{
+max-width: 529px;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+color: #111;
+text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* product */
+.yel .nav-link{
+    color: #111;
+}
+.yel .active{
+    background-color: #FF731D !important;
+}
+.product .tabs  ul{
+    margin-bottom: 100px !important;
+}
+
+.product .card img{
+    border-radius: 50%;
+    border: 5px solid #fafafa;
+    max-width: 160px;
+    position: relative;
+    margin-top: -80px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.product .card{
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #AAAAAA;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: center;
+    max-width: 270px;
+    margin-bottom: 100px;
+}
+
+/* About */
+.about{
+    background: #fff;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+}
+.about .about-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #111111;
+
+}
+/* Media Query */
+@media (max-width: 991.98px) { 
+    .product .card{
+        margin-bottom: 80px;
+    }
+
+}
+
